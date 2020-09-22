@@ -13,7 +13,7 @@ DownloadSitemap=no
 RemoteSitemapUrl=
 
 OutputToFile=yes
-OutputFileName=broken_link_output.txt
+OutputFileName=broken_link_output.txt25
 
 ;Logging - The directory where logs will be stored
 LogfileDirectory=./log
@@ -21,6 +21,8 @@ LogfileDirectory=./log
 ;Emails the results to the Recipient address from the Admin address
 [EMAIL]
 EmailOutput=yes
+
+SMTPDomain=
 
 AdminEmailAddress=
 AdminEmailPassword=
