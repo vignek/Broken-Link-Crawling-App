@@ -2,7 +2,7 @@
 
 > Internship Project
 
-A Python utility that captures all the links, recursively, from any websites sitemap.xml file and checks whether the links are ok or are broken. It also send an email notification upon completion of the checks.
+A Python utility that captures all the links, recursively, from any websites sitemap.xml file and checks whether the links are HTTP 200 or are broken. It also sends email notification upon completion of the checks.
 
 # linkChecker
 A simple website URL and link checker. It crawls through a given sitemap for every accessible URL, checks that the response is 200 (OK). It then procedes to check every link in the html of that page. 
